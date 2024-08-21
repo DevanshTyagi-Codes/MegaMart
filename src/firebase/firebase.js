@@ -5,10 +5,10 @@ import {getFirestore} from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey: String(import.meta.env.VITE_FIREBASE_APIKEY),
-  authDomain: String(import.meta.env.VITE_FIREBASE_AUTHDOMIAN),
-  projectId: String(import.meta.env.VITE_FIREBASE_PROJECT_ID),
-  storageBucket: String(import.meta.env.VITE_FIREBASE_BUCKET_ID),
-  messagingSenderId: String(import.meta.env.VITE_FIREBASE_SENDER_ID),
+  authDomain: "contactapp-f4a75.firebaseapp.com",
+  projectId: "contactapp-f4a75",
+  storageBucket: "contactapp-f4a75.appspot.com",
+  messagingSenderId: "713077458353",
   appId: String(import.meta.env.VITE_FIREBASE_APP_ID)
 };
 
