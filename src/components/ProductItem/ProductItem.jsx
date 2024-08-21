@@ -8,7 +8,7 @@ const ProductItem = ({image , name , price , Description , id , handler}) => {
       <div className="flex justify-center mb-2 duration-100 hover:scale-105">
         <img src={image} className="w-44 h-44 rounded " alt="" />
       </div>
-      <div className="flex flex-col gap-1 h-[20vh]">
+      <div className="flex flex-col gap-1 h-[20vh] text-black dark:text-white">
         <div>
           <span className="text-lg font-medium">{name}</span>
           <span>{Description}</span>
